@@ -1,0 +1,79 @@
+.loginn{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .login_container{
+        flex-direction: column;
+        width: 400px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.66);
+        -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.66);
+        box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.66);
+        border-radius: 10px;
+
+
+        input{
+            width: 70%;
+            padding: 10px 10px 10px 15px;
+            outline: none;
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            background: transparent;
+
+            -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.66);
+            -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.66);
+            box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.26);
+
+        }
+
+        .loginBtn{
+            width: 70%;
+            padding: 10px;
+            outline: none;
+            border: 1px solid lightgray;
+            border-radius: 10px; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px; 
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all .6s ease-out;
+            -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.66);
+            -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.66);
+            box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.26);
+        }
+
+        .loginBtn:hover{
+            -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.66);
+                -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.66);
+                box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.66);
+        }
+
+        .registerinfo{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            width: 70%;
+            justify-content: end;
+
+            span{
+                font-size: 16px;
+            }
+            
+        }
+        .registerinfo>span:nth-child(2):hover{
+            text-decoration: underline;
+        }
+        
+        
+    }
+}
